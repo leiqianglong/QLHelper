@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  QLHelper
+//
+//  Created by 公智能 on 2020/12/25.
+//  Copyright © 2020 com.lal. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "QDefines.h"
+#import "QLCoreFunnctions.h"
+
+
+
+
+
+#endif /* PrefixHeader_pch */

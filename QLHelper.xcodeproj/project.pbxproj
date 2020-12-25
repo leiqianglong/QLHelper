@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8ECC122259591790082574A /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECC121259591790082574A /* NSDate+Category.m */; };
+		B8ECC126259593210082574A /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECC124259593200082574A /* NSString+MD5.m */; };
+		B8ECC12A259593990082574A /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECC129259593990082574A /* UIButton+Badge.m */; };
+		B8ECC132259595450082574A /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECC131259595450082574A /* NSDateFormatter+Category.m */; };
+		B8ECC13B2595ABB50082574A /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECC1392595ABB50082574A /* UILabel+Extension.m */; };
+		B8ECC13F2595AC520082574A /* UIImage+FJ.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECC13E2595AC520082574A /* UIImage+FJ.m */; };
+		B8ECC1432595BA3A0082574A /* QLCoreFunnctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ECC1422595BA3A0082574A /* QLCoreFunnctions.m */; };
 		EF37B3B223AC582F0025E9C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37B3B123AC582F0025E9C9 /* AppDelegate.m */; };
 		EF37B3B523AC582F0025E9C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37B3B423AC582F0025E9C9 /* ViewController.m */; };
 		EF37B3B823AC582F0025E9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF37B3B623AC582F0025E9C9 /* Main.storyboard */; };
@@ -17,6 +24,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8ECC120259591650082574A /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		B8ECC121259591790082574A /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		B8ECC124259593200082574A /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		B8ECC125259593210082574A /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B8ECC128259593990082574A /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		B8ECC129259593990082574A /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		B8ECC12C259594560082574A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B8ECC130259595450082574A /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		B8ECC131259595450082574A /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		B8ECC1392595ABB50082574A /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		B8ECC13A2595ABB50082574A /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		B8ECC13D2595AC520082574A /* UIImage+FJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FJ.h"; sourceTree = "<group>"; };
+		B8ECC13E2595AC520082574A /* UIImage+FJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FJ.m"; sourceTree = "<group>"; };
+		B8ECC1412595BA3A0082574A /* QLCoreFunnctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLCoreFunnctions.h; sourceTree = "<group>"; };
+		B8ECC1422595BA3A0082574A /* QLCoreFunnctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLCoreFunnctions.m; sourceTree = "<group>"; };
 		EF37B3AD23AC582F0025E9C9 /* QLHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37B3B023AC582F0025E9C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF37B3B123AC582F0025E9C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +65,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8ECC0C425957B250082574A /* source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		EF37B3A423AC582F0025E9C9 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +91,14 @@
 		EF37B3AF23AC582F0025E9C9 /* QLHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B8ECC0C425957B250082574A /* source */,
 				EF37B3DA23AC588E0025E9C9 /* QL_Helper */,
 				EF37B3B023AC582F0025E9C9 /* AppDelegate.h */,
 				EF37B3B123AC582F0025E9C9 /* AppDelegate.m */,
 				EF37B3B323AC582F0025E9C9 /* ViewController.h */,
 				EF37B3B423AC582F0025E9C9 /* ViewController.m */,
 				EF37B3B623AC582F0025E9C9 /* Main.storyboard */,
+				B8ECC12C259594560082574A /* PrefixHeader.pch */,
 				EF37B3B923AC58320025E9C9 /* Assets.xcassets */,
 				EF37B3BB23AC58320025E9C9 /* LaunchScreen.storyboard */,
 				EF37B3BE23AC58320025E9C9 /* Info.plist */,
@@ -82,6 +113,20 @@
 				EF37B3DE23AC58E50025E9C9 /* QDefines.h */,
 				EF37B3DB23AC58C00025E9C9 /* QHelper.h */,
 				EF37B3DC23AC58C00025E9C9 /* QHelper.m */,
+				B8ECC120259591650082574A /* NSDate+Category.h */,
+				B8ECC121259591790082574A /* NSDate+Category.m */,
+				B8ECC130259595450082574A /* NSDateFormatter+Category.h */,
+				B8ECC131259595450082574A /* NSDateFormatter+Category.m */,
+				B8ECC125259593210082574A /* NSString+MD5.h */,
+				B8ECC124259593200082574A /* NSString+MD5.m */,
+				B8ECC128259593990082574A /* UIButton+Badge.h */,
+				B8ECC129259593990082574A /* UIButton+Badge.m */,
+				B8ECC13A2595ABB50082574A /* UILabel+Extension.h */,
+				B8ECC1392595ABB50082574A /* UILabel+Extension.m */,
+				B8ECC13D2595AC520082574A /* UIImage+FJ.h */,
+				B8ECC13E2595AC520082574A /* UIImage+FJ.m */,
+				B8ECC1412595BA3A0082574A /* QLCoreFunnctions.h */,
+				B8ECC1422595BA3A0082574A /* QLCoreFunnctions.m */,
 			);
 			path = QL_Helper;
 			sourceTree = "<group>";
@@ -156,8 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8ECC13B2595ABB50082574A /* UILabel+Extension.m in Sources */,
+				B8ECC1432595BA3A0082574A /* QLCoreFunnctions.m in Sources */,
+				B8ECC126259593210082574A /* NSString+MD5.m in Sources */,
+				B8ECC132259595450082574A /* NSDateFormatter+Category.m in Sources */,
+				B8ECC13F2595AC520082574A /* UIImage+FJ.m in Sources */,
+				B8ECC12A259593990082574A /* UIButton+Badge.m in Sources */,
 				EF37B3B523AC582F0025E9C9 /* ViewController.m in Sources */,
 				EF37B3DD23AC58C00025E9C9 /* QHelper.m in Sources */,
+				B8ECC122259591790082574A /* NSDate+Category.m in Sources */,
 				EF37B3C023AC58320025E9C9 /* main.m in Sources */,
 				EF37B3B223AC582F0025E9C9 /* AppDelegate.m in Sources */,
 			);
@@ -303,6 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EC5567HY92;
+				GCC_PREFIX_HEADER = /Users/gongzhineng/Desktop/QLHelper/QLHelper/PrefixHeader.pch;
 				INFOPLIST_FILE = QLHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EC5567HY92;
+				GCC_PREFIX_HEADER = /Users/gongzhineng/Desktop/QLHelper/QLHelper/PrefixHeader.pch;
 				INFOPLIST_FILE = QLHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

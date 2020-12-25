@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "QDefines.h"
-#import "QHelper.h"
+#import "UIButton+Badge.h"
+
 @interface ViewController ()
 
 @end
@@ -50,7 +50,29 @@
         NSLog(@"111");
     }
     
+    
+    NSString *nullStr = nil;
+    QLog(@"nullStr === %@",QNTS(nullStr));
+    
+    self.view.backgroundColor = HexRGB(0xf2f3f4);
+    
+    
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 150, 50)];
+    [btn setTitle:@"角标" forState:(UIControlStateNormal)];
+    btn.backgroundColor = HexRGB(0x999999);
+    [btn showBadgeAtButton];
+    [btn setImage:UIImageMake(@"gouxuan") forState:(UIControlStateNormal)];
+    [btn layoutButtonWithEdgeInsetsStyle:(MKButtonEdgeInsetsStyleRight) imageTitleSpace:10];
+    [self.view addSubview:btn];
+    
+    XMAfter(2, ^{
+        DLog(@"延迟了2s。。。。");
+    });
+    XMDispatchMain(^{
+        DLog(@"回到主线程");
+    });
 }
+
 
 
 @end
